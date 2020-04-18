@@ -57,7 +57,7 @@ export default function App() {
       <header>
         <form id="to-do-form">
           <h1>My to-do-list</h1>
-          <h2>April 2020</h2>
+          <h2>April 18 2020</h2>
           <input
             placeholder="New todo..."
             value={inputValue}
