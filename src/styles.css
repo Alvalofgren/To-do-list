@@ -1,0 +1,56 @@
+.App {
+  font-family: ariel;
+  text-align: center;
+  background-color: lightcyan;
+}
+
+h1 {
+  color: purple;
+}
+
+ul {
+  text-align: left;
+}
+
+body {
+  background: beige;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+#to-do-form input {
+  background-color: violet;
+  border: 0px;
+  width: 200px;
+  height: 15px;
+  border-radius: 1rem;
+}
+
+#to-do-form button {
+  background-color: #9cb380;
+  border-radius: 1rem;
+}
+
+.todo-list {
+  border: 1px solid turquoise;
+  padding: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-item {
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#to-do-item button {
+  border-radius: 1rem;
+  color: black;
+}
